@@ -16,6 +16,7 @@ body {
   text-align: center;
   background:#141414;
   background-size: 450px;
+  size: 600px;
 }
 
 h1 {
@@ -31,10 +32,11 @@ input[type="text"] {
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
-  margin-block-end: 10px;
-  background-color: #ffffff78;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: none;
   text-align: center;
-  color: #000;
+  color: #fff;
 
 }
 
@@ -44,7 +46,7 @@ button {
   text-shadow: #333;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -57,8 +59,8 @@ button:hover {
 
 #result {
   text-shadow: #ffffff;
-  margin-block-start: 20px;
-  margin-block-end: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   font-size: 18px;
   color:#333;
   -webkit-text-stroke: #ffffff;
@@ -73,6 +75,8 @@ button:hover {
   text-shadow: #333;
   font-family: Arial, Helvetica, sans-serif;
   color: #f5f5f5;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .create {
   font-size: 10px;
