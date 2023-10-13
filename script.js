@@ -8,7 +8,9 @@ function isPalindrome(str) {
     const result = document.getElementById("result");
     if (isPalindrome(inputText)) {
       result.innerText = `${inputText} is a palindrome!`;
-    } else {
+    } else if(isPalindrome(inputText){
       result.innerText = `${inputText} is not a palindrome.`;
+    }else{
+        result.innerText = `Please give me a word.`;
     }
   }
