@@ -17,6 +17,8 @@ body {
   background:#141414;
   background-size: 450px;
   size: 600px;
+  max-width: 600px;
+  max-height: 1200px;
 }
 
 h1 {
